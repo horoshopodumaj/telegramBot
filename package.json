@@ -1,0 +1,26 @@
+{
+    "name": "telegrambot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/horoshopodumaj/telegramBot.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/horoshopodumaj/telegramBot/issues"
+    },
+    "homepage": "https://github.com/horoshopodumaj/telegramBot#readme",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "node-telegram-bot-api": "^0.63.0",
+        "nodemon": "^3.0.1"
+    }
+}
